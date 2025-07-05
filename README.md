@@ -9,8 +9,9 @@ We begin with having the data spreadsheet undorstood first and then take a look 
 
 Power Query Editor: We first take out the raw CSV file data in our Excel and before loading, we do some transformations on the existing columns using this editor before loading the data. Apart from that we also create a calendar table to later on do some timewise analysis.
 
-1. Power Pivot: We attempt to link the new created table with the existig transformed table and create relationship between those tables in Power Pivot.
+1. Power Pivot: We attempt to link the newly created table with the existig transformed table and establish relationship between those tables based on common column in Power Pivot tool.
 2. Pivot Tables: Now we insert some pivot tables on a new worksheet based on the KPIs that we have to extract.
 3. Dashboard: When the pivot tables are ready to be visualised, we insert the suitbale charts to show them in a new worksheet. 
 4. Slicer: because of the required KIPs are to be visualised timewise, we add slicer to choose years, months as well as days so as to get accurate information on one click.
 5. Charts: In our project we have used bar charts, pie charts, donut charts, area charts and many more so as to give each KPI the best suitable visualization method.
+6. Dynamic: We have made sure a user gets to know every necessary info by just one click and hence we have connected the slicers to various pivot tables and made it easier to find the exact data that user might want to get. The buttons are clickable and if necessary it redirects to the dedicated chart/worksheet so as to give a more detailed view of the events happening there.
