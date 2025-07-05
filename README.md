@@ -1,11 +1,18 @@
 # Hospital-Emergency-Room-Analysis
 This is an end-to-end data analysis project where we take a spreadsheet full of information about a hospital emergency room and try to extract useful insights from that organized data. We have used Microsoft Excel as our primary tool.
 ## Project Objectives-
-We begin with having the data spreadsheet undorstood first and then take a look at our KPIs that we are going to extract out of it. There are data available like 
-1. How many patients are getting admitted each day
-2. How much each of them had to wait to be assigned to a medical professional
-3. How the satisfaction score (from 0-10) each patient gave before being released
-4. What are the personal information about them and from which department they are getting refered to and many more.
+The objective of this project is to summarize and visualize the Emergency Room data in 2023-2024 and understand the patient's feedback based on key service parameters that the emergency room has provided. This is to improve the service and have more potential patients as customers of the business.
+
+## KPIs (Business Questions to be answered)-
+We begin with having the data spreadsheet undorstood first and then take a look at our KPIs that we are going to extract out of it. There are insights to be extracted like
+1. Daily monitoring the number of patients getting admitted to the emergency room
+2. The average waiting time for patients to be assigned a medical professional after getting admitted
+3. The average satisfaction score that patients are giving to the service before leaving
+4. Grouping of the patients on the basis of age
+5. Analyzing the medical departments which are getting referred to the patients and tracking their numbers
+6. Monitoring how many patients are getting assigned within a 30 minutes time and how many cases have that time delayed
+7. Gender wise anaysis
+8. Percentage of patients getting medical staff associated within time and not within time 
 ## Dataset Used-
 - <a href="https://github.com/deadlineZeus/Hospital-Emergency-Room-Analysis/blob/main/Hospital%20Room%20Raw%20Data.csv">Raw Dataset in CSV</a>
 ## Features & Tools Used-
